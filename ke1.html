@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar html </title>
+    <link rel="stylesheet" href="belajarke.css">
+</head>
+<body>
+    <h1>belajar teks </h1>
+    <form id="form" style="margin-top: 50px;">
+        <h3>latihan html form </h3>
+        <label>nama lengkap </label>
+        <input type="text" name="nama"value=""placeholder="harus lengkap"><br>
+        <label>no.hp</label>
+        <input type="number" name="phone" value=""><br>
+        <label >password</label>
+        <input type="password" name="password" value="">
+      <br>
+       <label >email</label>
+        <input type="email" name="email" value=""> <br>
+        <label>tanggal lahir </label>
+
+        <input type="date" name="" value=""><input type="time"name=""value=""><br>
+        <label >lampiran </label>
+        <input type="file" name="" value=""><br>
+        <label>bahasa inggris </label>
+        <input type="range" name="" value=""><br>
+        <div>
+            <span>pilihan produk</span><br>
+            <input type="checkbox" name="produk" value="A">
+            <label for="">paket A </label>
+            <input type="checkbox" name="produk" value="B">
+            <label for="">paket B </label>
+        </div>
+        <br>
+        <label for="">kurir pengiriman </label><br>
+        <select name="kurir">
+            <option value="">-</option>
+            <option value="jne">jne</option>
+            <option value="jnt">jnt</option>
+        </select>
+        <br>
+        <br>
+        <label >tentang saya </label><br>
+        <textarea placeholder="deskripsikan tentang alasan anda tetang produk kami" name="deskripsi" rows="5"
+        style="width: 500px;"></textarea>
+        <div>
+            <button type="button" ondblclick="klik()">klik</button>
+            <button type="reset" onclick="mereset()">reset</button>
+            <button type="submit">kirim</button>
+        </div>
+    </form>
+</body>
+</html>

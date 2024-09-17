@@ -1,0 +1,81 @@
+.h1 {
+  font-size: 35PX;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+color: white;
+  
+}
+body{
+  min-height: 100vh;
+    width: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4158d0;
+
+}
+.frist-name
+{
+  font-size: 20px;
+  color: #0c0c0c;
+}
+.Last-name{
+  font-size: 20px;
+  color: #0e0d0d;
+}
+.box-form{
+  font-size: 20px;
+  width: 500px;
+}
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #e9e1e1;
+    border-radius: 4px;
+    box-sizing: border-box; 
+ }
+  input[type=text] {
+    border: 2px solid rgb(13, 14, 13);
+    border-radius: 3px;
+  }
+   [type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #0c0c0c;
+    border-radius: 4px;
+    box-sizing: border-box;
+  } 
+  [type= password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #111111;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  form .field input[type="submit"]{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    border: none;
+    padding-left: 0;
+    margin-top: -6px;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    background: linear-gradient(-135deg, #1906c0, #06ec94);
+    transition: all 0.3s ease;
+  }
+  form .field input[type="submit"]:active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.95);
+  }
+  
